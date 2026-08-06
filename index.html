@@ -259,6 +259,23 @@
             background: #f9f7f4;
         }
 
+        /* ===== ДОКУМЕНТЫ (ссылки на файлы) ===== */
+        .doc-link {
+            display: inline-block;
+            padding: 4px 0;
+            color: #2c1810;
+            font-weight: 500;
+        }
+
+        .doc-link:hover {
+            color: #d4a373;
+        }
+
+        .doc-size {
+            color: #888;
+            font-size: 13px;
+        }
+
         /* ===== КОНТАКТЫ ===== */
         .contacts-grid {
             display: grid;
@@ -602,37 +619,41 @@
     </div>
 </section>
 
-<!-- ==================== ДОКУМЕНТЫ ==================== -->
+<!-- ==================== ДОКУМЕНТЫ (исправлено) ==================== -->
 <section id="documents">
     <div class="container">
         <h2>Документы</h2>
 
-        <h3>Учредительные документы</h3>
-        <ul>
-            <li>Свидетельство о регистрации ИП (ОГРНИП: 305760201700656)</li>
-            <li>Постановка на учет в налоговом органе (ИНН: 760200144705)</li>
-        </ul>
+        <p style="margin-bottom:15px; color:#555;">Все документы представлены в актуальной редакции.</p>
 
-        <h3>Локальные нормативные акты</h3>
-        <ul>
-            <li>Положение об оказании платных образовательных услуг <span style="color:#888;">(размещается после утверждения)</span></li>
-            <li>Правила внутреннего распорядка обучающихся <span style="color:#888;">(размещается после утверждения)</span></li>
-            <li>Правила внутреннего трудового распорядка <span style="color:#888;">(размещается после утверждения)</span></li>
-        </ul>
-
-        <h3>Образовательная программа</h3>
-        <ul>
-            <li>
-                <a href="documents/programma.pdf" target="_blank">
-                    Программа профессиональной подготовки по профессии «Парикмахер» (2-й разряд), 256 часов
+        <ul style="list-style: none; margin-left: 0;">
+            <li style="padding: 6px 0; border-bottom: 1px solid #eee;">
+                <a href="documents/polozhenie_oplata_uslug.pdf" target="_blank" class="doc-link">
+                    📄 Положение об оказании платных образовательных услуг
                 </a>
-                <span style="color:#888; font-size:13px;">(DOCX, 256 КБ)</span>
+                <span class="doc-size">(PDF, 0.5 МБ)</span>
             </li>
-        </ul>
-
-        <h3>Лицензия</h3>
-        <ul>
-            <li>Лицензия на осуществление образовательной деятельности <span style="color:#888;">(размещается после получения)</span></li>
+            <li style="padding: 6px 0; border-bottom: 1px solid #eee;">
+                <a href="documents/pravila_obuchayushchihsya.pdf" target="_blank" class="doc-link">
+                    📄 Правила внутреннего распорядка обучающихся
+                </a>
+                <span class="doc-size">(PDF, 0.4 МБ)</span>
+            </li>
+            <li style="padding: 6px 0; border-bottom: 1px solid #eee;">
+                <a href="documents/programma.pdf" target="_blank" class="doc-link">
+                    📄 Образовательная программа по профессии «Парикмахер» (2-й разряд), 256 часов
+                </a>
+                <span class="doc-size">(DOCX, 256 КБ)</span>
+            </li>
+            <li style="padding: 6px 0; border-bottom: 1px solid #eee;">
+                <a href="documents/dogovor_obrazec.pdf" target="_blank" class="doc-link">
+                    📄 Образец договора об оказании платных образовательных услуг
+                </a>
+                <span class="doc-size">(PDF, 0.6 МБ)</span>
+            </li>
+            <li style="padding: 6px 0; color:#888;">
+                📄 Лицензия на осуществление образовательной деятельности <span style="font-size:13px;">(размещается после получения)</span>
+            </li>
         </ul>
     </div>
 </section>
